@@ -2,3 +2,25 @@
     width: 50vw;
     align-items: center;
 }
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus {
+    border: none;
+}
+.navbar-toggler:active{
+    border: none;
+}
+
+.header {
+    margin-bottom: 5rem;
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('img/team.jpg');
+}
+
+nav.navbar{
+    padding: 0 10px 0 10px;
+    margin-top: 10px;
+}
