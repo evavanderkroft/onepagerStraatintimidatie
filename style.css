@@ -2,25 +2,28 @@
     width: 50vw;
     align-items: center;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: none;
 }
+
 .navbar-toggler:focus {
     border: none;
 }
-.navbar-toggler:active{
+
+.navbar-toggler:active {
     border: none;
 }
 
 .header {
     margin-bottom: 5rem;
-    height:100vh;
-    min-height:400px;
-    background-size:cover;
-    background-image:url('img/team.jpg');
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('img/team.jpg');
 }
 
-nav.navbar{
+nav.navbar {
     padding: 0 10px 0 10px;
     margin-top: 10px;
     margin-bottom: 5rem;
@@ -32,7 +35,7 @@ nav.navbar{
 }
 
 .ontwerpproces {
-    height: 50vh;
+    height: 20vh;
     margin: 3rem 0 3rem 0;
 }
 
@@ -43,7 +46,7 @@ nav.navbar{
 
 .vervolgstappen {
     height: 40vh;
-    margin: 3rem 0 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .btn {
