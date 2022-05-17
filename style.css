@@ -35,7 +35,7 @@ nav.navbar {
 }
 
 .ontwerpproces {
-    height: 50vh;
+    height: 20vh;
     margin: 3rem 0 3rem 0;
 }
 
@@ -46,7 +46,7 @@ nav.navbar {
 
 .vervolgstappen {
     height: 40vh;
-    margin: 3rem 0 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .btn {
