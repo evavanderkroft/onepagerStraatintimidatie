@@ -1,3 +1,7 @@
+a, a:hover{
+    color: white;
+}
+
 .container {
     width: 50vw;
     align-items: center;
@@ -56,4 +60,15 @@ nav.navbar {
 
 .img-onderzoek {
     border-radius: 2%;
+}
+
+.footer {
+    background-color: #00811f;
+}
+
+.bi-github::before,
+.bi-youtube::before,
+.bi-facebook::before {
+    font-size: 42px;
+    margin: 10px
 }
