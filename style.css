@@ -58,3 +58,10 @@ nav.navbar{
 .footer {
     background-color: #00811f;
 }
+
+.bi-github::before,
+.bi-youtube::before,
+.bi-facebook::before {
+    font-size: 42px;
+    margin: 10px
+}
