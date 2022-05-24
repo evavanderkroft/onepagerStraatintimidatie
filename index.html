@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="style.css">
     <title>Straatintimidatie team 6</title>
 </head>
@@ -16,7 +16,7 @@
 
     <!-- Header -->
     <div class="header">
-        <nav class="navbar">
+        <nav class="navbar bg-light mt-0">
             <div class="container-fluid">
                 <img src="img/rdam-logo.svg" class="img-fluid m-3" alt="" width="400px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -54,36 +54,29 @@
     <div class=" container text-center">
 
         <!-- onderzoek -->
-        <div class="onderzoek" id="onderzoek">
-            <h2>Onderzoek</h2>
+        <div class="onderzoek my-5" id="onderzoek">
+            <h1>Onderzoek</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.</p>
-
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top img-onderzoek img-fluid" alt="...">
-                    </div>
+                <div class="col-4">
+                <img src="img/stock.jpg" class="card-img-top img-onderzoek float-start" alt="...">
                 </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top img-onderzoek img-fluid" alt="...">
-                    </div>
+                <div class="col-4">
+                <img src="img/stock.jpg" class="card-img-top img-onderzoek" alt="...">
                 </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top img-onderzoek img-fluid" alt="...">
-                    </div>
-                </div>
+                <div class="col-4">
+                <img src="img/stock.jpg" class="card-img-top img-onderzoek float-end" alt="...">
+            </div>
             </div>
         </div>
 
         <!-- ontwerpproces -->
-        <div class="ontwerpproces" id="ontwerpproces">
-            <h2>Ontwerpproces</h2>
+        <div class="ontwerpproces my-5" id="ontwerpproces">
+            <h1>Ontwerpproces</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -92,52 +85,97 @@
         </div>
 
         <!-- concepten -->
-        <div class="concepten" id="concepten">
-            <h2>Concepten</h2>
-            <p>We hebben deze 3 concepten bedacht bla bla bla </p>
+        <div class="concepten my-5" id="concepten">
+            <h1>Concepten</h1>
+            <p>We hebben deze 2 concepten bedacht bla bla bla </p>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/vr-concept.jpeg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Concept 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">VR concept</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          
+                          <!-- Modal button -->
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Lees meer
+                          </button>
+                          
+                          <!-- Modal body -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="vrConcept" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="vrConcept">VR concept</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Afsluiten</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/projector-concept.jpeg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Concept 2</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Projector concept</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          
+                          <!-- Modal button -->
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#projectorConcept">
+                            Lees meer
+                          </button>
+                          
+                          <!-- Modal body -->
+                          <div class="modal fade" id="projectorConcept" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Projector concept</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/stock.jpg" class="img-fluid rounded-start" alt="...">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Afsluiten</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Concept 3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                  </div>          
             </div>
         </div>
 
         <!-- vervolgstappen -->
-        <div class="Vervolgstappen" id="Vervolgstappen">
-            <h2>Vervolgstappen</h2>
+        <div class="vervolgstappen my-5" id="vervolgstappen">
+            <h1>Vervolgstappen</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -148,19 +186,19 @@
     </div>
 
     <!-- footer -->
-    
     <div class="footer text-light">
-        <footer class="py-3 mt-5">
-            <h2 class="text-center text-light">Links</h2>
-            <ul class="nav justify-content-center pb-3 mb-3">
-                <a href="https://github.com/evavanderkroft/onepagerStraatintimidatie"><i class="bi bi-github"></i></a>
-                <a href="https://github.com/evavanderkroft/onepagerStraatintimidatie"><i class="bi bi-youtube"></i></a>
-                    <a href="https://github.com/evavanderkroft/onepagerStraatintimidatie"><i class="bi bi-facebook"></i></a>
-            </ul>
+        <footer class="py-3 mt-4">
+            <h1 class="text-center text-light mb-4">Links</h1>
+          <ul class="nav justify-content-center pb-3 my-3">
+            <a href="https://github.com/evavanderkroft/StraatintimidatieProject"><i class="fa-brands fa-github fa-3x mx-3"></i></a>
+            <a href="https://trello.com/b/YITLFqFl/algemene-planning"><i class="fa-brands fa-trello fa-3x mx-3"></i></a>
+            <a href="https://drive.google.com/drive/folders/1sf-EMlhz69s15yw61dWVKVidmsJ7lhKN?usp=sharing"><i class="fa-brands fa-google-drive fa-3x mx-3"></i></a>
+          </ul>
         </footer>
-    </div>
+      </div>
 
 </body>
+<script src="https://kit.fontawesome.com/951b18c5cf.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
