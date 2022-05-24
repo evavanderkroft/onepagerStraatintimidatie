@@ -1,4 +1,5 @@
-a, a:hover{
+a,
+a:hover {
     color: white;
 }
 
@@ -33,7 +34,7 @@ nav.navbar {
     margin-bottom: 5rem;
 }
 
-.onderzoek {
+/* .onderzoek {
     height: 50vh;
     margin: 3rem 0 3rem 0;
 }
@@ -52,6 +53,8 @@ nav.navbar {
     height: 40vh;
     margin-bottom: 3rem;
 }
+    margin: 3rem 0 3rem 0;
+} */
 
 .btn {
     color: white;
