@@ -16,7 +16,7 @@
 
     <!-- Header -->
     <div class="header">
-        <nav class="navbar">
+        <nav class="navbar mt-0">
             <div class="container-fluid">
                 <img src="img/rdam-logo.svg" class="img-fluid m-3" alt="" width="400px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -51,7 +51,7 @@
     <div class=" container text-center">
 
         <!-- onderzoek -->
-        <div class="onderzoek">
+        <div class="onderzoek my-5">
             <h2>Onderzoek</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -79,7 +79,7 @@
         </div>
 
         <!-- ontwerpproces -->
-        <div class="ontwerpproces">
+        <div class="ontwerpproces my-5">
             <h2>Ontwerpproces</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -89,51 +89,95 @@
         </div>
 
         <!-- concepten -->
-        <div class="concepten">
+        <div class="concepten my-5">
             <h2>Concepten</h2>
-            <p>We hebben deze 3 concepten bedacht bla bla bla </p>
+            <p>We hebben deze 2 concepten bedacht bla bla bla </p>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/stock.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Concept 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">VR concept</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          
+                          <!-- Modal button -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Lees meer
+                          </button>
+                          
+                          <!-- Modal body -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">VR concept</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Afsluiten</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/stock.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Concept 2</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Projector concept</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          
+                          <!-- Modal button -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Lees meer
+                          </button>
+                          
+                          <!-- Modal body -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Projector concept</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Afsluiten</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="width: 16rem;">
-                        <img src="img/stock.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Concept 3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                  </div>          
             </div>
         </div>
 
         <!-- vervolgstappen -->
-        <div class="Vervolgstappen">
+        <div class="vervolgstappen my-5">
             <h2>Vervolgstappen</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -144,6 +188,7 @@
 
     </div>
 
+    <!-- footer -->
     <div class="footer text-light">
         <footer class="py-3 mt-4">
             <h2 class="text-center text-light">Links</h2>
@@ -154,8 +199,6 @@
           </ul>
         </footer>
       </div>
-
-
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
