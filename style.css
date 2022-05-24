@@ -1,5 +1,5 @@
 .container {
-    width: 50vw;
+    /* width: 50vw; */
     align-items: center;
 }
 .navbar-toggler{
@@ -26,28 +26,7 @@ nav.navbar{
     margin-bottom: 5rem;
 }
 
-/* .onderzoek {
-    height: 50vh;
-    margin: 3rem 0 3rem 0;
-}
-
-.ontwerpproces {
-    height: 50vh;
-    margin: 3rem 0 3rem 0;
-}
-
-.concepten {
-    height: 60vh;
-    margin: 3rem 0 3rem 0;
-}
-
-.vervolgstappen {
-    height: 40vh;
-    margin: 3rem 0 3rem 0;
-} */
-
 .btn {
-    color: white;
     background-color: #00811f;
 }
 
@@ -59,9 +38,6 @@ nav.navbar{
     background-color: #00811f;
 }
 
-.bi-github::before,
-.bi-youtube::before,
-.bi-facebook::before {
-    font-size: 42px;
-    margin: 10px
+.fa-brands {
+    color: #ffffff
 }
