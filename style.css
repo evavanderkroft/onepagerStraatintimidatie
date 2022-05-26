@@ -1,3 +1,9 @@
+p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .container {
     /* width: 50vw; */
     align-items: center;
@@ -42,4 +48,36 @@ nav.navbar{
 
 .fa-brands {
     color: #ffffff
+}
+
+.h1, h1 {
+    font-size: calc(2.375rem + 1.5vw);
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-big{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 429px) {
+    .logo-big{
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 331px) {
+    .logo-small{
+        display: none;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .logo-big{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px){
+.h1, h1 {
+    font-size: 4.0rem;
+}
 }
