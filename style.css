@@ -8,27 +8,29 @@ p {
     /* width: 50vw; */
     align-items: center;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: none;
 }
+
 .navbar-toggler:focus {
     border: none;
     box-shadow: none;
 }
 
-.navbar-toggler:active{
+.navbar-toggler:active {
     border: none;
 }
 
 .header {
     margin-bottom: 5rem;
-    height:100vh;
-    min-height:400px;
-    background-size:cover;
-    background-image:url('img/team.jpg');
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('img/team.jpg');
 }
 
-nav.navbar{
+nav.navbar {
     padding: 0 10px 0 10px;
     margin-top: 10px;
     margin-bottom: 5rem;
@@ -50,34 +52,50 @@ nav.navbar{
     color: #ffffff
 }
 
+.card-body{
+    height: 100%;
+}
+
 .h1, h1 {
     font-size: calc(2.375rem + 1.5vw);
 }
 
+.h5, h5 {
+    font-size: 2.25rem;
+}
+
+.modal-body{
+    font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 768px) {
-    .logo-big{
+    .logo-big {
         width: 300px;
     }
 }
+
 @media only screen and (max-width: 429px) {
-    .logo-big{
+    .logo-big {
         width: 200px;
     }
 }
 
 @media only screen and (min-width: 331px) {
-    .logo-small{
-        display: none;
-    }
-}
-@media only screen and (max-width: 330px) {
-    .logo-big{
+    .logo-small {
         display: none;
     }
 }
 
-@media (min-width: 1200px){
-.h1, h1 {
-    font-size: 4.0rem;
+@media only screen and (max-width: 330px) {
+    .logo-big {
+        display: none;
+    }
 }
+
+@media (min-width: 1200px) {
+
+    .h1,
+    h1 {
+        font-size: 4.0rem;
+    }
 }
