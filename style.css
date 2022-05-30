@@ -1,30 +1,48 @@
-a, a:hover{
-    color: white;
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a{
+    color: #00811f;
+}
+
+a:hover{
+    color: #00a859;
 }
 
 .container {
     /* width: 50vw; */
     align-items: center;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: none;
 }
+
 .navbar-toggler:focus {
     border: none;
+    box-shadow: none;
 }
-.navbar-toggler:active{
+
+.navbar-toggler:active {
     border: none;
 }
 
 .header {
     margin-bottom: 5rem;
-    height:100vh;
-    min-height:400px;
-    background-size:cover;
-    background-image:url('img/team.jpg');
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('img/team.jpg');
 }
 
-nav.navbar{
+nav.navbar {
     padding: 0 10px 0 10px;
     margin-top: 10px;
     margin-bottom: 5rem;
@@ -44,4 +62,90 @@ nav.navbar{
 
 .fa-brands {
     color: #ffffff
+}
+
+.card-body{
+    height: 100%;
+}
+
+.h1, h1 {
+    font-size: calc(2.375rem + 1.5vw);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.h5, h5 {
+    font-size: 2.25rem;
+}
+
+.fa-brands:hover{
+    color: #dddddd;
+}
+
+.fa-brands{
+    transition: all ease 200ms;
+
+}
+
+.offcanvas-title{
+    font-size: 4rem;
+}
+
+.offcanvas.offcanvas-end{
+    width: 500px;
+}
+
+.offcanvas-header .btn-close{
+    font-size: 3rem!important;
+}
+
+.navbar-toggler-icon {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+nav.navbar{
+    height: 180px;
+}
+
+.nav-link{
+    font-size: 3rem;
+}
+
+.modal-body{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-big {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .logo-big {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 331px) {
+    .logo-small {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .logo-big {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .h1,
+    h1 {
+        font-size: 4.0rem;
+    }
 }
