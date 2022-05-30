@@ -8,6 +8,14 @@ p {
     margin-right: 1rem;
 }
 
+a{
+    color: #00811f;
+}
+
+a:hover{
+    color: #00a859;
+}
+
 .container {
     /* width: 50vw; */
     align-items: center;
