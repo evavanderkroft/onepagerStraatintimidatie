@@ -4,12 +4,17 @@
 
 p {
     /* font-size: 1.5rem; */
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
 }
 
 a{
     color: #00811f;
+}
+
+.card-img-top{
+    max-width: 600px;
 }
 
 a:hover{
@@ -70,6 +75,10 @@ nav.navbar {
 
 .h1, h1 {
     font-size: calc(2.375rem + 1.5vw);
+}
+h3{
+    padding-top:5rem;
+    padding-bottom:1rem;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -133,6 +142,9 @@ nav.navbar {
     .logo-big {
         width: 300px;
     }
+    img{
+        padding-bottom: 1rem;
+    }
 }
 
 @media only screen and (max-width: 429px) {
@@ -159,4 +171,6 @@ nav.navbar {
     h1 {
         font-size: 3.0rem;
     }
+
+
 }
